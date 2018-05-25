@@ -33,7 +33,7 @@
 					<a class="nav-link" href="/eventulexv2/codeigniter">Eventos <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="/eventulexv2/codeigniter/quienes_somos">Quienes somos</a>
+					<a class="nav-link" href="/eventulexv2/codeigniter/index.php/eventulex/quienes_somos">Quienes somos</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="/eventulexv2/codeigniter/como_funcionamos">¿Cómo funcionamos?</a>

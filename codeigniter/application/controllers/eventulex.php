@@ -126,8 +126,8 @@ class eventulex extends CI_Controller
     public function acceso()
     {
     	$this->load->view('eventCabecera');
-        $this->load->view('eventUserAcceso');
-        $this->load->view('eventPie');
+      $this->load->view('eventUserAcceso');
+      $this->load->view('eventPie');
     }
 
     public function cargaEvento($evento)
@@ -141,6 +141,14 @@ class eventulex extends CI_Controller
       $this->load->view('eventCabecera');
       $this->load->view('eventPrincipal',$data);
       $this->load->view('eventFichaEvento',$data2);
+      $this->load->view('eventPie');
+    }
+
+    public function quienes_somos()
+    {
+      $this->load->helper('url');
+      $this->load->view('eventCabecera');
+      $this->load->view('quienesSomos');
       $this->load->view('eventPie');
     }
 }
