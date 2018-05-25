@@ -1,0 +1,21 @@
+.row{
+    padding-top: 25px;
+}
+.login {
+    border-radius: 10px !important;
+}
+.registro {
+    background: darkgreen !important;
+    border-radius: 10px !important;
+    color: white !important;
+}
+.nav-link {
+    padding: 10px !important;
+}
+.nav-item {
+    padding-left: 10px;
+}
+.tabla_eventos, .tabla_eventos tr td{
+	border: 1px solid black;
+	padding: 10px !important;
+}
