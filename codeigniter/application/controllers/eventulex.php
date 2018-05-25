@@ -23,7 +23,6 @@ class eventulex extends CI_Controller
         $this->load->view('eventCabecera');
         $this->load->view('eventAcceso');
         $this->load->view('eventPie');
-
     }
 
     public function usuarioValida()  //Validar usuario registrado
@@ -129,5 +128,19 @@ class eventulex extends CI_Controller
     	$this->load->view('eventCabecera');
         $this->load->view('eventUserAcceso');
         $this->load->view('eventPie');
+    }
+
+    public function cargaEvento($evento)
+    {
+      $this->load->helper(array('form', 'url'));
+      $this->load->library('table');
+      $this->load->model('eventulex_model','',TRUE);
+      $data['query'] = $this->eventulex_model->fichaEvento($evento);
+      $data2['query2'] = $this->eventulex_model->fichaEntradas($evento);
+      
+      $this->load->view('eventCabecera');
+      $this->load->view('eventPrincipal',$data);
+      $this->load->view('eventFichaEvento',$data2);
+      $this->load->view('eventPie');
     }
 }
