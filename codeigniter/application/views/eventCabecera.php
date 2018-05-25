@@ -30,18 +30,18 @@
 		<div class="collapse navbar-collapse" id="navbarNavDropdown">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item active">
-					<a class="nav-link" href="/eventulex/">Eventos <span class="sr-only">(current)</span></a>
+					<a class="nav-link" href="/eventulexv2/codeigniter">Eventos <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="/eventulex/quienes_somos">Quienes somos</a>
+					<a class="nav-link" href="/eventulexv2/codeigniter/quienes_somos">Quienes somos</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="/eventulex/como_funcionamos">¿Cómo funcionamos?</a>
+					<a class="nav-link" href="/eventulexv2/codeigniter/como_funcionamos">¿Cómo funcionamos?</a>
 				</li>
 
 				<!--Cambios en los enlaces-->
 				<li class="nav-item">
-					<a class="nav-link login" href="/eventulex/login">Login</a>
+					<a class="nav-link login" href="/eventulexv2/codeigniter/login">Login</a>
 				</li>
 			</ul>
 		</div>
